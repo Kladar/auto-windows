@@ -12,6 +12,11 @@ class HouseModel(object):
         self.outdoor_temp = 15
         self.weather = None
 
+
+        self.furnace_condition = False #either on or off
+        self.ac_condition = True # either on or off
+        self.window_condition = 0 # gradient for 0, 0.5, 1
+
     def time_stepper(self):
 
         self.timestep = self.timestep.add(minutes=1)
@@ -22,7 +27,7 @@ class HouseModel(object):
 
     def set_indoor_temp(self):
 
-        # define mathematical adjustment
+        if
 
     def set_weather(self):
 
