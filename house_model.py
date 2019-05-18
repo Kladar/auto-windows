@@ -30,5 +30,7 @@ class HouseModel(object):
 
     def set_window_state(self):
 
-        if
+        if:
+
+
 
